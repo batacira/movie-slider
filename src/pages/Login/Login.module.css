@@ -1,0 +1,54 @@
+.loginModal {
+  margin: auto;
+  margin-top: 200px;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 35px;
+  width: 90%;
+}
+
+.loginModal h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.loginModal input {
+  display: block;
+  padding: 5px;
+  width: 100%;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.error {
+  margin-top: 3px;
+  color: red;
+}
+
+.loginModal button {
+  margin-top: 25px;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 750px) {
+  .loginModal {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .loginModal {
+    width: 50%;
+  }
+}

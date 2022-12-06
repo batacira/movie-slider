@@ -1,0 +1,44 @@
+.movie {
+  width: 15.9vw;
+  /* height: 200px; */
+  /* height: 21vh; */
+}
+
+.movie img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.active {
+  border: 0.25vw solid red;
+}
+
+.movieTitle {
+  color: red;
+  text-align: center;
+  margin-top: 8px;
+  min-height: 50px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+/* /* @media only screen and (max-width: 830px) {
+  .movie {
+    width: 15.89vw;
+  }
+} */
+
+@media only screen and (max-width: 650px) {
+  .movie {
+    width: 15.76vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .movie {
+    width: 15.6vw;
+  }
+}

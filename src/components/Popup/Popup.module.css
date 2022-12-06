@@ -1,0 +1,34 @@
+.overlay {
+  background-color: transparent;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  transform: scale(0);
+  transition: all 0.2s ease-in-out;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px;
+  background-color: beige;
+  border-radius: 8px;
+  box-shadow: 10px 10px 40px;
+}
+
+.popup h3,
+.popup p {
+  margin-bottom: 10px;
+}
+
+.popup p span {
+  font-weight: bold;
+}
+
+.opened {
+  transform: scale(1);
+}

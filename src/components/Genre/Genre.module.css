@@ -1,0 +1,21 @@
+.genre {
+  overflow: hidden;
+  margin: 10px;
+}
+
+.genreInner {
+  display: flex;
+  gap: 0.5vw;
+  width: fit-content;
+  transition: all 0.2s ease-in-out;
+}
+
+.genreTitle {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.genreLoading,
+.genreError {
+  color: white;
+}
